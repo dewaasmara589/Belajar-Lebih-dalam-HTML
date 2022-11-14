@@ -1,0 +1,43 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    width: 800px;
+    /* Agar berada ditengah halaman kiri kanannya */
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    border: 2px solid #dcdcdc;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+article{
+    width: 650px;
+    border: 1px solid #dcdcdc;
+    padding: 40px;
+    /* Agar dihitung dengan paddingnya sekalian */
+    box-sizing: border-box;
+}
+
+nav{
+    width: 150px;
+    background: #003b8a;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    border: 2px solid #dcdcdc;
+    padding: 10px 20px;
+    text-align: right;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
