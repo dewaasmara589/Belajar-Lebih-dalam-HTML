@@ -34,6 +34,70 @@
                     <input class="input" type="password">
                 </label>
 
+                <label class="form-style">
+                    Alamat
+                    <!-- Cara 1
+                        <textarea cols="30" rows="40"></textarea> 
+                    -->
+
+                    <!-- Cara 2 -->
+                    <textarea class="input"></textarea>
+                </label>
+
+                <fieldset class="form-style">
+                    <legend>Hobby</legend>
+                    <label>
+                        <input type="checkbox" value="Koding"> Koding
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Basket"> Basket
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Futsal"> Futsal
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Menulis"> Menulis
+                    </label>
+                </fieldset>
+
+                <fieldset class="form-style">
+                    <legend>Pekerjaan</legend>
+                    <label>
+                        <input type="radio" value="Direktur" name="pekerjaan"> Direktur
+                    </label>
+                    <label>
+                        <input type="radio" value="Manager" name="pekerjaan"> Manager
+                    </label>
+                    <label>
+                        <input type="radio" value="Karyawan" name="pekerjaan"> Karyawan
+                    </label>
+                    <label>
+                        <input type="radio" value="Belum Bekerja" name="pekerjaan"> Belum Bekerja
+                    </label>
+                </fieldset>
+
+                <label class="form-style">
+                    Ukuran Sepatu
+                    <select class="input">
+                        <option value="39">Ukuran 39</option>
+                        <option value="40">Ukuran 40</option>
+                        <option value="41">Ukuran 41</option>
+                        <option value="42">Ukuran 42</option>
+                    </select>
+                </label>
+
+                <label class="form-style">
+                    Warna Favorit
+                    <input list="warna" class="input">
+                    <datalist id="warna">
+                        <option value="M">Merah
+                        <option value="K">Kuning
+                        <option value="B">Biru
+                        <option value="BM">Biru Muda
+                        <option value="H">Hijau
+                    </datalist>
+                </label>
+
                 <input type="submit" value="Kirim">
             </form>
         </section>

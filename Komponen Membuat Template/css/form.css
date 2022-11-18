@@ -10,3 +10,11 @@
     box-sizing: border-box;
     margin-top: 5px;
 }
+
+textarea{
+    height: 150px;
+}
+
+fieldset{
+    border-color: white;
+}
