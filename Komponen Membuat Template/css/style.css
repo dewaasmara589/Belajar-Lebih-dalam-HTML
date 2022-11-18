@@ -18,7 +18,7 @@ header{
     border-top-right-radius: 5px;
 }
 
-article{
+.content{
     width: 650px;
     border: 1px solid #dcdcdc;
     padding: 40px;
@@ -44,6 +44,10 @@ article{
 
 .sidebar a:hover{
     background: #0757c1;
+}
+
+.sidebar a.active{
+    background: #0606bf;
 }
 
 footer{
