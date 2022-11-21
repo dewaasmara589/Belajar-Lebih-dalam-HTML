@@ -93,3 +93,18 @@ h6.penulis{
 card-title{
     font-weight: 300;
 }
+
+.row-divider{
+    position: relative;
+}
+
+.row-divider::before{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 1px;
+    background: radial-gradient(rgba(0,0,0, 0.2), rgba(255,255,255,0) 100%);
+    top: 0;
+    margin-left: -40px;
+    left: 50%;
+}
