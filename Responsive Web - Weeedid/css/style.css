@@ -148,4 +148,12 @@ card-title{
         padding: 5px 7px;
         cursor: pointer;
     }
+
+    .clean-code{
+        margin-top: 30px;
+    }
+
+    .row-padding{
+        padding: 50px 0px;
+    }
 }
