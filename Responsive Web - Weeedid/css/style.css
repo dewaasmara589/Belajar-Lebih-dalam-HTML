@@ -108,3 +108,18 @@ card-title{
     margin-left: -40px;
     left: 50%;
 }
+
+.head-section{
+    margin-bottom: 60px;
+}
+
+.teknologi img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.teknologi h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
