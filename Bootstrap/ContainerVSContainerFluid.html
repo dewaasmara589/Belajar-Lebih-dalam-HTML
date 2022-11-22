@@ -9,28 +9,20 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
-        #container {
-            background: #FFDA89;
-        }
-
-        #containerDua{
-            background: #99BADD;
+        .background-kolom {
+            border: 1px solid #FFDA89;
         }
     </style>
 </head>
 <body>
-    <div class="container" id="container">
-        <h1>Container</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit aliquet eros, eget consectetur felis laoreet id. Quisque nec congue diam, at consequat risus. Donec nec dolor ornare, iaculis tellus iaculis, gravida arcu. Nullam ullamcorper risus id mi mollis sodales. Aenean finibus eros non dolor euismod fermentum. Morbi ac rhoncus turpis. Nunc venenatis elit nec magna fringilla, a porta quam hendrerit. Morbi ultricies non nibh in laoreet. Vivamus sodales cursus iaculis. Sed eros leo, viverra accumsan ultricies eu, malesuada eget lectus. Vivamus sagittis semper odio sit amet auctor. Vestibulum in arcu lacinia, fringilla est sit amet, faucibus orci.
+    <div class="container">
+        <h1>Column Order</h1>
 
-        Cras tempus magna non libero tincidunt elementum. Duis tristique sollicitudin odio non accumsan. Donec venenatis augue ac risus tempus vulputate. Phasellus sodales euismod nulla quis mollis. Mauris ut leo nisi. Ut facilisis sem tempus consequat rutrum. Fusce ornare, elit ut mattis ultrices, est nibh faucibus ex, at molestie leo tortor sed lacus. Cras lacinia lectus sit amet imperdiet vestibulum. Maecenas et erat fringilla, ornare arcu sed, convallis velit. Nam massa enim, pretium sit amet augue quis, posuere elementum magna.</p>    
-    </div>
-
-    <div class="container-fluid" id="containerDua">
-        <h1>Container Fluid</h1>
-        <p> Nunc dapibus vulputate luctus. Ut dictum dui id nisl malesuada, in iaculis odio vehicula. Pellentesque elementum pellentesque mauris et iaculis. Fusce nec ipsum eget dolor maximus euismod nec ultrices justo. Curabitur pellentesque vestibulum sem, ut maximus justo sagittis sed. Etiam molestie tortor ligula, vitae dictum sem vehicula vel. Donec efficitur lacus ut tortor vulputate, nec sollicitudin orci elementum.
-
-            Maecenas a eros mauris. Morbi id tristique lectus. Duis elementum erat turpis. Cras ullamcorper est sit amet rutrum imperdiet. Nulla vel leo lorem. Maecenas at bibendum lorem. Sed tempus molestie purus, eu aliquam massa luctus non. In non massa et libero ornare tincidunt. Phasellus non ultrices diam. </p>
+        <div class="row">
+            <div class="col-md-4 order-md-1 order-3 background-kolom">Kol 1</div>
+            <div class="col-md-4 order-md-2 order-1 background-kolom">Kol 2</div>
+            <div class="col-md-4 order-md-3 order-2 background-kolom">Kol 3</div>
+        </div>
     </div>
 </body>
 </html>
